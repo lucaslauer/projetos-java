@@ -10,10 +10,10 @@ GerenciamentoProjetos - Sistema para gerenciamento de projetos em andamento em u
 ## ▶️ Segundo projeto (Parte final) - postado em 10/07/2024
 ### Primeira vez trabalhando com POO
 GerenciamentoProjetosFinal - Sistema para gerenciamento de projetos em andamento em uma empresa da área de TI (Tecnologia da Informação).
-1 – Incluir Projeto: na qual seja possível adicionar todos os dados dos projetos, seja WEB ou aplicativo, e seus gerentes de projeto
-2 – Pesquisar Projeto: na qual seja possível visualizar todos os dados de um projeto e de seu gerente, bem como se ele é web ou aplicativo
-3 – Remover Projeto: na qual seja possível excluir um projeto do conjunto
-4 – Sair: na qual é informado o total de projetos do conjunto e o programa é encerrado
+1. Incluir Projeto: na qual seja possível adicionar todos os dados dos projetos, seja WEB ou aplicativo, e seus gerentes de projeto
+2. Pesquisar Projeto: na qual seja possível visualizar todos os dados de um projeto e de seu gerente, bem como se ele é web ou aplicativo
+3. Remover Projeto: na qual seja possível excluir um projeto do conjunto
+4. Sair: na qual é informado o total de projetos do conjunto e o programa é encerrado
 
 
 
