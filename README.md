@@ -15,5 +15,6 @@ GerenciamentoProjetosFinal - Sistema para gerenciamento de projetos em andamento
 3. Remover Projeto: na qual seja possível excluir um projeto do conjunto
 4. Sair: na qual é informado o total de projetos do conjunto e o programa é encerrado
 
-
-
+## ▶️ Terceiro projeto (Primeira parte) - postado em 12/09/2024
+### Trabalhando com Syslog no sistema operacional Linux 
+SyslogReader - O programa faza leitura de todos os eventos existentes no syslog e apresenta na tela somente os eventos de conexão e desconexão de rede (existentes no syslog), bem como a data e hora em que ocorreram.
