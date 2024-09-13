@@ -1,0 +1,113 @@
+Sep  4 15:26:50 SISOP rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="855" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Sep  4 15:26:54 SISOP anacron[686]: Job `cron.daily' terminated
+Sep  4 15:26:54 SISOP anacron[686]: Normal exit (1 job run)
+Sep  4 15:27:25 SISOP gnome-session[2203]: 2437
+Sep  4 15:27:29 SISOP dbus[725]: [system] Activating service name='org.debian.apt' (using servicehelper)
+Sep  4 15:27:29 SISOP AptDaemon: INFO: Initializing daemon
+Sep  4 15:27:29 SISOP org.debian.apt[725]: 15:27:29 AptDaemon [INFO]: Initializing daemon
+Sep  4 15:27:29 SISOP dbus[725]: [system] Successfully activated service 'org.debian.apt'
+Sep  4 15:27:30 SISOP AptDaemon.PackageKit: INFO: Initializing PackageKit compat layer
+Sep  4 15:27:30 SISOP org.debian.apt[725]: /usr/lib/python3/dist-packages/aptdaemon/worker/pkworker.py:35: PyGIWarning: PackageKitGlib was imported without specifying a version first. Use gi.require_version('PackageKitGlib', '1.0') before import to ensure that the right version gets loaded.
+Sep  4 15:27:30 SISOP org.debian.apt[725]:   from gi.repository import PackageKitGlib as pk
+Sep  4 15:27:30 SISOP org.debian.apt[725]: 15:27:30 AptDaemon.PackageKit [INFO]: Initializing PackageKit compat layer
+Sep  4 15:27:30 SISOP AptDaemon: INFO: UpdateCache() was called
+Sep  4 15:27:30 SISOP org.debian.apt[725]: 15:27:30 AptDaemon [INFO]: UpdateCache() was called
+Sep  4 15:27:30 SISOP AptDaemon.Trans: INFO: Queuing transaction /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:30 SISOP org.debian.apt[725]: 15:27:30 AptDaemon.Trans [INFO]: Queuing transaction /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:30 SISOP AptDaemon.Worker: INFO: Simulating trans: /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:30 SISOP org.debian.apt[725]: 15:27:30 AptDaemon.Worker [INFO]: Simulating trans: /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:30 SISOP AptDaemon.Worker: INFO: Processing transaction /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:30 SISOP org.debian.apt[725]: 15:27:30 AptDaemon.Worker [INFO]: Processing transaction /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:30 SISOP AptDaemon.Worker: INFO: Updating cache
+Sep  4 15:27:30 SISOP org.debian.apt[725]: 15:27:30 AptDaemon.Worker [INFO]: Updating cache
+Sep  4 15:27:35 SISOP org.debian.apt[725]: AppStream cache update completed, but some metadata was ignored due to errors.
+Sep  4 15:27:36 SISOP AptDaemon.Worker: INFO: Finished transaction /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:27:36 SISOP org.debian.apt[725]: 15:27:36 AptDaemon.Worker [INFO]: Finished transaction /org/debian/apt/transaction/926976e691f24038bb215f332a04f0f4
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.2885] device (enp0s3): state change: activated -> deactivating (reason 'user-requested') [100 110 39]
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.2887] manager: NetworkManager state is now DISCONNECTING
+Sep  4 15:28:22 SISOP whoopsie[1440]: [15:28:22] offline
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.2953] audit: op="device-disconnect" interface="enp0s3" ifindex=2 pid=3801 uid=1000 result="success"
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.2960] device (enp0s3): state change: deactivating -> disconnected (reason 'user-requested') [110 30 39]
+Sep  4 15:28:22 SISOP avahi-daemon[705]: Withdrawing address record for fe80::38f8:e165:36e0:3b78 on enp0s3.
+Sep  4 15:28:22 SISOP avahi-daemon[705]: Leaving mDNS multicast group on interface enp0s3.IPv6 with address fe80::38f8:e165:36e0:3b78.
+Sep  4 15:28:22 SISOP avahi-daemon[705]: Interface enp0s3.IPv6 no longer relevant for mDNS.
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.3152] dhcp4 (enp0s3): canceled DHCP transaction, DHCP client pid 1084
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.3153] dhcp4 (enp0s3): state changed bound -> done
+Sep  4 15:28:22 SISOP avahi-daemon[705]: Withdrawing address record for 10.0.2.15 on enp0s3.
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.3168] dns-mgr: Writing DNS information to /sbin/resolvconf
+Sep  4 15:28:22 SISOP avahi-daemon[705]: Leaving mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Sep  4 15:28:22 SISOP avahi-daemon[705]: Interface enp0s3.IPv4 no longer relevant for mDNS.
+Sep  4 15:28:22 SISOP whoopsie[1440]: [15:28:22] Cannot reach: https://daisy.ubuntu.com
+Sep  4 15:28:22 SISOP dnsmasq[1129]: setting upstream servers from DBus
+Sep  4 15:28:22 SISOP NetworkManager[856]: <info>  [1725474502.3236] manager: NetworkManager state is now DISCONNECTED
+Sep  4 15:28:22 SISOP dbus[725]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service'
+Sep  4 15:28:22 SISOP systemd[1]: Starting Network Manager Script Dispatcher Service...
+Sep  4 15:28:22 SISOP dbus[725]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+Sep  4 15:28:22 SISOP systemd[1]: Started Network Manager Script Dispatcher Service.
+Sep  4 15:28:22 SISOP nm-dispatcher: req:1 'down' [enp0s3]: new request (1 scripts)
+Sep  4 15:28:22 SISOP nm-dispatcher: req:1 'down' [enp0s3]: start running ordered scripts...
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7389] device (enp0s3): Activation: starting connection 'Wired connection 1' (2ba199ba-4faa-34f1-af19-d21e5bae84c8)
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7390] audit: op="connection-activate" uuid="2ba199ba-4faa-34f1-af19-d21e5bae84c8" name="Wired connection 1" pid=3801 uid=1000 result="success"
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7391] device (enp0s3): state change: disconnected -> prepare (reason 'none') [30 40 0]
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7392] manager: NetworkManager state is now CONNECTING
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7395] device (enp0s3): state change: prepare -> config (reason 'none') [40 50 0]
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7403] device (enp0s3): state change: config -> ip-config (reason 'none') [50 70 0]
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7406] dhcp4 (enp0s3): activation: beginning transaction (timeout in 45 seconds)
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7426] dhcp4 (enp0s3): dhclient started with pid 3863
+Sep  4 15:28:23 SISOP dhclient[3863]: DHCPREQUEST of 10.0.2.15 on enp0s3 to 255.255.255.255 port 67 (xid=0x7d3fe23a)
+Sep  4 15:28:23 SISOP dhclient[3863]: DHCPACK of 10.0.2.15 from 10.0.2.2
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7958]   address 10.0.2.15
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7958]   plen 24 (255.255.255.0)
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7959]   gateway 10.0.2.2
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7959]   server identifier 10.0.2.2
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7959]   lease time 86400
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7959]   nameserver '1.1.1.1'
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7959]   nameserver '1.0.0.1'
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.7959] dhcp4 (enp0s3): state changed unknown -> bound
+Sep  4 15:28:23 SISOP avahi-daemon[705]: Joining mDNS multicast group on interface enp0s3.IPv4 with address 10.0.2.15.
+Sep  4 15:28:23 SISOP avahi-daemon[705]: New relevant interface enp0s3.IPv4 for mDNS.
+Sep  4 15:28:23 SISOP avahi-daemon[705]: Registering new address record for 10.0.2.15 on enp0s3.IPv4.
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8001] device (enp0s3): state change: ip-config -> ip-check (reason 'none') [70 80 0]
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8015] device (enp0s3): state change: ip-check -> secondaries (reason 'none') [80 90 0]
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8021] device (enp0s3): state change: secondaries -> activated (reason 'none') [90 100 0]
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8025] manager: NetworkManager state is now CONNECTED_LOCAL
+Sep  4 15:28:23 SISOP whoopsie[1440]: [15:28:23] Cannot reach: https://daisy.ubuntu.com
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8065] manager: NetworkManager state is now CONNECTED_GLOBAL
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8068] policy: set 'Wired connection 1' (enp0s3) as default for IPv4 routing and DNS
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8072] dns-mgr: Writing DNS information to /sbin/resolvconf
+Sep  4 15:28:23 SISOP dhclient[3863]: bound to 10.0.2.15 -- renewal in 40224 seconds.
+Sep  4 15:28:23 SISOP dnsmasq[1129]: setting upstream servers from DBus
+Sep  4 15:28:23 SISOP dnsmasq[1129]: using nameserver 1.1.1.1#53(via enp0s3)
+Sep  4 15:28:23 SISOP dnsmasq[1129]: using nameserver 1.0.0.1#53(via enp0s3)
+Sep  4 15:28:23 SISOP NetworkManager[856]: <info>  [1725474503.8145] device (enp0s3): Activation: successful, device activated.
+Sep  4 15:28:23 SISOP nm-dispatcher: req:2 'up' [enp0s3]: new request (1 scripts)
+Sep  4 15:28:23 SISOP nm-dispatcher: req:2 'up' [enp0s3]: start running ordered scripts...
+Sep  4 15:28:23 SISOP whoopsie[1440]: [15:28:23] The default IPv4 route is: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep  4 15:28:23 SISOP whoopsie[1440]: [15:28:23] Not a paid data plan: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep  4 15:28:23 SISOP whoopsie[1440]: [15:28:23] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/1
+Sep  4 15:28:23 SISOP whoopsie[1440]: [15:28:23] online
+Sep  4 15:28:24 SISOP avahi-daemon[705]: Joining mDNS multicast group on interface enp0s3.IPv6 with address fe80::38f8:e165:36e0:3b78.
+Sep  4 15:28:24 SISOP avahi-daemon[705]: New relevant interface enp0s3.IPv6 for mDNS.
+Sep  4 15:28:24 SISOP avahi-daemon[705]: Registering new address record for fe80::38f8:e165:36e0:3b78 on enp0s3.*.
+Sep  4 15:37:07 SISOP systemd[1]: Starting Cleanup of Temporary Directories...
+Sep  4 15:37:07 SISOP systemd-tmpfiles[4074]: [/usr/lib/tmpfiles.d/var.conf:14] Duplicate line for path "/var/log", ignoring.
+Sep  4 15:37:07 SISOP systemd[1]: Started Cleanup of Temporary Directories.
+Sep  4 15:38:30 SISOP AptDaemon: INFO: Quitting due to inactivity
+Sep  4 15:38:30 SISOP org.debian.apt[725]: 15:38:30 AptDaemon [INFO]: Quitting due to inactivity
+Sep  4 15:38:30 SISOP org.debian.apt[725]: 15:38:30 AptDaemon [INFO]: Quitting was requested
+Sep  4 15:38:30 SISOP AptDaemon: INFO: Quitting was requested
+Sep  4 16:11:07 SISOP systemd[1]: Starting Message of the Day...
+Sep  4 16:11:08 SISOP 50-motd-news[4347]:  * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+Sep  4 16:11:08 SISOP 50-motd-news[4347]:    just raised the bar for easy, resilient and secure K8s cluster deployment.
+Sep  4 16:11:08 SISOP 50-motd-news[4347]:    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+Sep  4 16:11:08 SISOP systemd[1]: Started Message of the Day.
+Sep  4 16:17:01 SISOP CRON[4400]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Sep  4 16:26:23 SISOP org.gnome.evolution.dataserver.Sources5[2064]: ** (evolution-source-registry:2336): WARNING **: secret_service_search_sync: must specify at least one attribute to match
+Sep  4 16:30:33 SISOP dbus[725]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Sep  4 16:30:33 SISOP systemd[1]: Starting Hostname Service...
+Sep  4 16:30:33 SISOP dbus[725]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Sep  4 16:30:33 SISOP systemd[1]: Started Hostname Service.
+Sep  4 16:30:34 SISOP org.gtk.vfs.Daemon[2064]: ** (process:4483): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: Operation not supported by backend
+Sep  4 16:30:34 SISOP org.gtk.vfs.Daemon[2064]: ** (process:4489): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: Operation not supported by backend
+Sep  4 16:30:34 SISOP gnome-session[2203]: Nautilus-Share-Message: Called "net usershare info" but it failed: 'net usershare' returned error 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Permission denied
+Sep  4 16:30:34 SISOP gnome-session[2203]: You do not have permission to create a usershare. Ask your administrator to grant you permissions to create a share.
